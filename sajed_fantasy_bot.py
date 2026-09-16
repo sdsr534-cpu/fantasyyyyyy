@@ -17,11 +17,11 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 # ================= إعدادات =================
 # لا تضع التوكن هنا مباشرة — خزّنه في متغير بيئة TELEGRAM_BOT_TOKEN.
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8974039321:AAGpmUKigSNHg3m22xpi2Yp3cxTYj9T7OJU")
 # آيدي الأدمن الوحيد المسموح له بفتح لوحة الإدارة.
-ADMIN_ID = int(os.environ.get("ADMIN_ID", "0"))
+ADMIN_ID = int(os.environ.get("ADMIN_ID", "8997899988"))
 # رابط الـ Mini App (نفس السيرفر Flask الذي يخدم index.html) — يجب أن يكون https.
-WEBAPP_URL = os.environ.get("MINI_APP_URL", "https://example.com")
+WEBAPP_URL = os.environ.get("MINI_APP_URL", "https://fantasyyyyyy.onrender.com/#connect")
 
 DB_PATH = os.environ.get("SAJED_BOT_DB_PATH", "sajed_fantasy_bot.db")
 
